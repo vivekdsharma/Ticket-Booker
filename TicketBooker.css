@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url(bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+#FirstHeading{
+
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+
+
+#main{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 30%;
+    font-size: 30px;
+    color: crimson;
+}
+
+
+#button{
+    margin-left: 5%;
+    margin-top: 2.5%;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    border-color: black;
+    border: 2px solid;
+    font-size: 20px;
+    cursor: pointer;
+
+
+
+    background-color: orangered;
+    color: white;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+
+#button:hover{
+
+    scale: 1.2;
+}
+
+
+#tobe{
+
+    margin-left: 20%;
+    margin-top: 1.5%;
+    padding: 2.5%;
+
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+    width: 30%;
+}
+
+
+#confirm{
+    border: 2px solid yellow;
+    border-radius: 20px;
+    padding: 2px;
+    width: 40%;
+    position: relative;
+    bottom: .5px;
+    margin-left: 25%;
+    margin-top: 2.5%;
+    
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+#confirm:hover{
+
+    scale: 1.12;
+    background-color: yellow;
+    color: black;
+}
+
+
+
+.booked-tickets{
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+
+#bookedTicketsList{
+    display: flex;
+    gap: 2%;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1010px) {
+
+    #confirm{
+        width: 50%;
+    }
+
+}
+
+
+@media (max-width: 860px) {
+
+    #tobe{
+        width: 50%;
+    }
+
+    #main{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 560px) {
+
+    #tobe{
+        width: 60%;
+        margin-left: 15%;
+    }
+
+    #main{
+        width: 100%;
+    }
+    #button{
+        margin-left: 30%;
+    }
+
+    .booked-tickets{
+
+        margin-left: 5%;
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 460px){
+
+    #tobe{
+        width: 80%;
+        margin-left: 5%;
+    }
+
+}
