@@ -111,7 +111,7 @@ body{
 
 
 #bookedTicketsList{
-    display: flex;
+
     gap: 2%;
     list-style: none;
     cursor: pointer;
